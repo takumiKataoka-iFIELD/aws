@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Hello Thymeleaf</title>
+</head>
+<body>
+<div id="newUser_border">
+    <form action="/user/signup" method="post">
+        <p>Id<input type="text" name="userId"></p>
+        <p>ユーザーネーム<input class="newu_form" type="text" name="userName" required></p>
+        <p>パスワード<input id="newu_pass" class="newu_form" type="password" name="password" required></p>
+        <p><input class="newu-button" type="submit" value="登録"></p>
+    </form>
+</div>
+</body>
+
+</html>
